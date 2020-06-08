@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+	box-sizing:border-box;
+	}
+#table-1 {
+	border:5px solid black;
+	background-color:gray;
+	float:left;
+	margin-right:0px;
+	height:100px;
+	width:30px;
+	margin:2px;
+	}
+#table-2 {
+	border:5px solid black;
+	background-color:gray;
+	float:left;
+	margin-right:0px;
+	height:100px;
+	width:30px;
+	margin:2px;
+	}
+#table-3 {
+	border:5px solid black;
+	background-color:gray;
+	float:left;
+	margin-right:0px;
+	height:100px;
+	width:30px;
+	margin:2px;
+	}
+#head-1{
+	border:3px solid black;
+	border-top-style:hidden;
+	border-right-style:hidden;
+	float:right;
+	color:black;
+	background-color:pink;
+	padding-top:0;
+	padding-right:0;
+	margin-top:0;
+	
+	}	
+#head-2{
+	border:3px solid black;
+	border-top-style:hidden;
+	border-right-style:hidden;
+	float:right;
+	color:white;
+	background-color:red;
+	padding-top:0;
+	padding-right:0;
+	margin-top:0;
+	}	
+#head-3{
+	border:3px solid black;
+	border-top-style:hidden;
+	border-right-style:hidden;
+	float:right;
+	color:black;
+	background-color:yellow;
+	padding-top:0;
+	padding-right:0px;
+	margin-top:0;
+	}
+@media (min-width:992px){
+	#table-1{
+		width:31%;
+		height:20%;
+		
+		}
+	#table-2{
+		width:31%;
+		height:20%;
+		
+		}
+	#table-3{
+		width:31%;
+		height:20%;
+		
+		}
+	
+	}
+@media (min-width:768px) and (max-width:991px){
+	
+	#table-1{
+		width:47.5%;
+		height:25%;
+		}
+	#table-2{
+		width:47.5%;
+		height:25%;
+		}
+	#table-3{
+		width:98%;
+		height:25%;
+		}
+	}
+@media (max-width:768px){
+	#table-1{
+		width:100%;
+		height:25%;
+		}
+	#table-2{
+		width:100%;
+		height:25%;
+		}
+	#table-3{
+		width:100%;
+		height:25%;
+		}
+	}
+	
+	
+	
+</style>
+</head>
+<body>
+	<h1 style="text-align:center">OUR MENU</h1>
+	<div>
+		<div id="table-1">
+			<h2 id="head-1">Chicken</h2><br/><br/>
+			<div>lorem ipsum</div>
+		</div>
+		<div id="table-2">
+			<h2 id="head-2">Beef</h2><br/><br/>
+			<div>lorem ipsum</div>
+		</div>
+		<div id="table-3">
+			<h2 id="head-3">Sushi</h2><br/><br/>
+			<div>lorem ipsum</div>
+		</div>
+	</div>
+
+
+
+
+
+
+</body>
+</html>
